@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         btnTambah = findViewById(R.id.btnTambah)
         btnKurang = findViewById(R.id.btnKurang)
 
-        var angka:Int = 0
+        var angka = 0
         textAngka.text = angka.toString()
 
         btnTambah.setOnClickListener{
